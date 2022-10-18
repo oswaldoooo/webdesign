@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erro⚠️</title>
+    <link rel="stylesheet" href="https://use.typekit.net/zlv8gmn.css">
+    <link rel="stylesheet" href="../css/togglemenu.css">
+    <style>
+        html{
+            height: 100%;
+        }
+        body{
+            background: rgb(59, 59, 59);
+        }
+        .erroe{
+            min-width: 300px;
+            min-height: 300px;
+            width: 60%;
+            height: 60%;
+        }
+        .erroe image{
+            margin-bottom: 10px;
+        }
+        .erroe h3{
+            font-family: pinecone-mvb-condensed,sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: lightgoldenrodyellow;
+        }
+        #mmeennuu:checked ~ .menu{
+            border-color: lightgreen;
+        }
+        .menu ul li a{
+            color: whitesmoke;
+        }
+        .menu ul li a:hover{
+            border-color: lightgreen;
+        }
+        .menu{
+            background-color: #FADB14;
+        }
+        .menu div.barry .bar{
+            background-color: #8C8C8C;
+        }
+    </style>
+</head>
+<body>
+    <input type='checkbox' id='mmeennuu'>
+    <label class='menu' for='mmeennuu'>
+        <div class='barry'>
+            <span class='bar'></span>
+            <span class='bar'></span>
+            <span class='bar'></span>
+            <span class='bar'></span>
+        </div>
+            
+        <ul>
+            <li><a id='home' href='#home'>Home</a></li>
+            <li><a id='about' href='#about'>About</a></li>
+            <li><a id='contact' href='#contact'>Contact</a></li>
+            <li><a id='link' href='#link'>Other</a></li>
+        </ul>
+    </label>
+    <center>
+        <!-- <hr style="border-width: 0px;height: 100px;"> -->
+        <div class="erroe">
+            <img src="../../images/404.png" alt="">
+            <h3>There was a problem happened</h3>
+        </div>
+    </center>
+</body>
+</html>
